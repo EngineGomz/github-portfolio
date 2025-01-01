@@ -11,7 +11,7 @@
     <link rel="canonical" href="https://www.euginegomezportfolio.com/">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed top-0 w-100 z-1">
         <div class="container">
             <a class="navbar-brand" href="#">Eugine Gomez</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,6 +19,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
@@ -28,7 +29,7 @@
         </div>
     </nav>
 
-    <header class="bg-primary text-white text-center py-5">
+    <header id="introduction" class="bg-primary text-white text-center py-5 vh-100 d-flex flex-column justify-content-center align-items-center">
         <div class="container">
             <h1>Eugine Gomez</h1>
             <p class="lead">Experienced WordPress Developer | Responsive Website Specialist</p>
@@ -36,52 +37,67 @@
     </header>
 
     <main>
-        <section id="about" class="py-5">
+        <section id="about" class="py-5 text-center vh-100 d-flex flex-column justify-content-center align-items-center">
             <div class="container">
                 <h2>About Me</h2>
                 <p class="lead">I am a dedicated WordPress Developer with over four years of experience creating high-quality, responsive, and user-friendly websites. My expertise lies in transforming ideas into impactful online presences that exceed client expectations.</p>
             </div>
         </section>
 
-        <section id="experience" class="py-5 bg-light">
+        <section id="experience" class="py-5 bg-light vh-100 d-flex flex-column justify-content-center align-items-center">
             <div class="container">
-                <h2>Experience</h2>
-                <article class="mb-4">
-                    <h3>WebeeLabs - Europe, Malta</h3>
-                    <p><strong>Role:</strong> Frontend Developer | <strong>Duration:</strong> November 2020 - August 2023</p>
-                    <p>Developed and maintained over 12 websites, focusing on responsive design and performance optimization. Notable projects include:</p>
-                    <ul>
-                        <li><a href="https://franksalt.com.mt/" target="_blank">franksalt.com.mt</a></li>
-                        <li><a href="https://mood.mt" target="_blank">mood.mt</a></li>
-                        <li><a href="https://jamescaterers.com/" target="_blank">jamescaterers.com</a></li>
-                    </ul>
-                </article>
-
-                <article class="mb-4">
-                    <h3>BrandRep - USA, California</h3>
-                    <p><strong>Role:</strong> WordPress Developer | <strong>Duration:</strong> November 2023 - July 2024</p>
-                    <p>Successfully launched over 20 websites tailored to client needs. Key projects include:</p>
-                    <ul>
-                        <li><a href="https://prycelessjamaicantours.com/" target="_blank">prycelessjamaicantours.com</a></li>
-                        <li><a href="https://sandtosearealestateca.com/" target="_blank">sandtosearealestateca.com</a></li>
-                        <li><a href="https://www.effroofingrestoration.com/" target="_blank">effroofingrestoration.com</a></li>
-                    </ul>
-                </article>
-
-                <article>
-                    <h3>OceanStudio360 - USA, California</h3>
-                    <p><strong>Role:</strong> WordPress Developer | <strong>Duration:</strong> April 2024 - Present</p>
-                    <p>Specializing in custom WordPress solutions, I have delivered impactful websites, including:</p>
-                    <ul>
-                        <li><a href="https://sensytec.com/" target="_blank">sensytec.com</a></li>
-                        <li><a href="https://oceanstudio360.com/" target="_blank">oceanstudio360.com</a></li>
-                        <li><a href="https://lighthousepsychiatry.com/" target="_blank">lighthousepsychiatry.com</a></li>
-                    </ul>
-                </article>
+                <h2 class="mb-5 text-center">Experience</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">WebeeLabs - Europe, Malta</h5>
+                                <p><strong>Role:</strong> Frontend Developer</p>
+                                <p><strong>Duration:</strong> November 2020 - August 2023</p>
+                                <p>Developed and maintained over 12 websites, focusing on responsive design and performance optimization. Notable projects include:</p>
+                                <ul>
+                                    <li><a href="https://franksalt.com.mt/" target="_blank">franksalt.com.mt</a></li>
+                                    <li><a href="https://mood.mt" target="_blank">mood.mt</a></li>
+                                    <li><a href="https://jamescaterers.com/" target="_blank">jamescaterers.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">BrandRep - USA, California</h5>
+                                <p><strong>Role:</strong> WordPress Developer</p>
+                                <p><strong>Duration:</strong> November 2023 - July 2024</p>
+                                <p>Successfully launched over 20 websites tailored to client needs. Key projects include:</p>
+                                <ul>
+                                    <li><a href="https://prycelessjamaicantours.com/" target="_blank">prycelessjamaicantours.com</a></li>
+                                    <li><a href="https://sandtosearealestateca.com/" target="_blank">sandtosearealestateca.com</a></li>
+                                    <li><a href="https://www.effroofingrestoration.com/" target="_blank">effroofingrestoration.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">OceanStudio360 - USA, California</h5>
+                                <p><strong>Role:</strong> WordPress Developer</p>
+                                <p><strong>Duration:</strong> April 2024 - Present</p>
+                                <p>Specializing in custom WordPress solutions, I have delivered impactful websites, including:</p>
+                                <ul>
+                                    <li><a href="https://sensytec.com/" target="_blank">sensytec.com</a></li>
+                                    <li><a href="https://oceanstudio360.com/" target="_blank">oceanstudio360.com</a></li>
+                                    <li><a href="https://lighthousepsychiatry.com/" target="_blank">lighthousepsychiatry.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="education" class="py-5">
+        <section id="education" class="py-5 vh-100 d-flex flex-column justify-content-center align-items-center">
             <div class="container">
                 <h2>Education</h2>
                 <p><strong>Bachelor of Science in Information Technology</strong> - 2020</p>
